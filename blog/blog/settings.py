@@ -122,10 +122,10 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'blogapp' 'static_mine'),
+    os.path.join(BASE_DIR, 'blogapp', 'static'),
 ]
 #static파일들이 현재 어디에 있는지를 나타내는 코드 블로그앱->스태틱폴더에 존재
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static_mine')
 #static파일들이 어디로 모일것인지 정해주는 코드
 STATIC_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL='/media/'
